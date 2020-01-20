@@ -13,7 +13,7 @@ const {
   uploadStreamToBlockBlob
 } = require("@azure/storage-blob");
 
-const connectionString = "DefaultEndpointsProtocol=https;AccountName=zehndertestblob;AccountKey=Ehvx4kfmCzA7rR76woABA1WLG/rcOLcnnC/jObMY1edem2SrKze1d9b1ZyIQBZDfY9M8Z9AWj7Qy393rKKRulw==;EndpointSuffix=core.windows.net"
+const connectionString = "todo"
 const ONE_MEGABYTE = 1024 * 1024;
 const ONE_MINUTE = 60 * 1000;
 const uploadOptions = { bufferSize: 4 * ONE_MEGABYTE, maxBuffers:  20 };
